@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header, footer {
+  height: 10vh;
+  width: 100%;
+  background-color: green;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 80vh;
+}
+main .left, main .right {
+  width: 20%;
+  height: 100%;
+  color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .center {
+  width: 60%;
+  height: 100%;
+  background-color: blue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
